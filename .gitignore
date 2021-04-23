@@ -1,2 +1,5 @@
 .idea
 *.class
+.classpath
+.settings/
+.project
