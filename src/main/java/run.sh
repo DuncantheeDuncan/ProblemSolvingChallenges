@@ -1,7 +1,7 @@
 
-javac challenge/coding/PrintTree.java
+javac challenge/coding/Recursion.java
 
-java challenge.coding.PrintTree
+java challenge.coding.Recursion
 
 
 # javac challenge/coding/FibonacciSequence.java 
