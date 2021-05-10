@@ -2,24 +2,20 @@ package challenge.coding;
 
 class Recursion{
 
-	int i =9;
-	int sum;
-	
-	public void sumAllNumbers(){
+	public void sumAllNumbers(int i){
 
-		if (i== 0)
-			return;
+		if (i== 0)return;
 
-		sum++;i--;
-		System.out.println(sum+"+"+sum+"= " +(sum+sum));
 
-		sumAllNumbers();
+		sumAllNumbers(i-1);
+		System.out.println(i+"+"+i+"= " +(i+i));
+
 	}
 
 	public static void main(String[] args) {
 
 		Recursion re = new Recursion();
-		re.sumAllNumbers();
+		re.sumAllNumbers(9);
 
 	}
 }
