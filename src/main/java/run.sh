@@ -8,7 +8,7 @@
 
 # java challenge.coding.FibonacciSequence 
 
-javac challenge/coding/SortAlphabatically.java
+javac challenge/coding/SortAlphabetically.java
 
-java challenge.coding.SortAlphabatically
+java challenge.coding.SortAlphabetically
 
